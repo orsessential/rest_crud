@@ -4,7 +4,7 @@ from database.model import Ordering
 from database.db import initialize_db
 import json
 app = Flask(__name__)
-MONGODB_SETTINGS = {
+app.config['MONGODB_SETTINGS'] = {
     'host': 'mongodb://localhost/orders'
 }
 initialize_db(app)
