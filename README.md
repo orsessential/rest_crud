@@ -15,6 +15,16 @@ python app.py
 
 ```
 
+## UNITTEST ##
+(response empty, get all order, get order by id, delete order by id, put order by id, patch order by id, add order), 
+how to run test:
+```
+python3 -m pytest tests/unittest.py
+```
+
+![](unittest_pass.png)
+
+
 ## Configuration ##
 
 ```
